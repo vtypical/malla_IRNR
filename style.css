@@ -1,17 +1,17 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  background: #edc6f7;
+  background: #cd6155;
   padding: 40px;
   margin: 0;
-  color: #333;
+  color: #e6b0aa;
 }
 
 h1 {
   text-align: center;
   font-size: 32px;
   margin-bottom: 40px;
-  color: #d6457b;
+  color: #e6b0aa;
 }
 
 .semestre {
@@ -19,7 +19,7 @@ h1 {
   vertical-align: top;
   width: 220px;
   margin: 0 10px 40px;
-  background: #e693fb;
+  background: #d98880 ;
   border-radius: 16px;
   padding: 15px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -29,11 +29,11 @@ h1 {
   text-align: center;
   font-size: 18px;
   margin-bottom: 15px;
-  color: #c2185b;
+  color:#a93226 ;
 }
 
 .ramo {
-  background-color: #e5aaf4;
+  background-color: #cd6155 ;
   border-radius: 10px;
   padding: 10px;
   margin: 8px 0;
@@ -43,7 +43,7 @@ h1 {
   cursor: pointer;
   user-select: none;
   transition: all 0.3s ease;
-  border: 1px solid #f48fb1;
+  border: 1px solid #c0392b ;
 }
 
 .ramo:hover {
@@ -51,9 +51,9 @@ h1 {
 }
 
 .ramo.aprobado {
-  background-color: #d9a7f0;
+  background-color: #e6b0aa;
   text-decoration: line-through;
-  color: #d25ef0 ;
+  color:#e6b0aa ;
   border: 1px solid #aed581;
 }
 
