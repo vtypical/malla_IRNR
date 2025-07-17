@@ -20,13 +20,14 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   ramos.forEach(ramo => {
-    ramo.addEventListener("click", () => {
-      const id = ramo.dataset.id;
-      estado[id] = !estado[id];
-      localStorage.setItem("estadoRamos", JSON.stringify(estado));
-      actualizarEstado();
-    });
+  ramo.addEventListener('click', () => {
+    if (!ramo.classList.contains('aprobado')) {
+      ramo.classList.add('aprobado');
+      liberarRamos(ramo.dataset.id);
+    } else {
+      ramo.classList.remove('aprobado');
+      ocultarRamosDependientes(ramo.dataset.id);
+    }
   });
-
   actualizarEstado();
 });
