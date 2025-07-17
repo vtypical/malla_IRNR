@@ -1,4 +1,3 @@
-
 body {
   font-family: 'Segoe UI', sans-serif;
   background: #cd6155;
@@ -19,7 +18,7 @@ h1 {
   vertical-align: top;
   width: 220px;
   margin: 0 10px 40px;
-  background: #d98880 ;
+  background: #d98880;
   border-radius: 16px;
   padding: 15px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -29,11 +28,11 @@ h1 {
   text-align: center;
   font-size: 18px;
   margin-bottom: 15px;
-  color:#a93226 ;
+  color:#a93226;
 }
 
 .ramo {
-  background-color: #cd6155 ;
+  background-color: #cd6155;
   border-radius: 10px;
   padding: 10px;
   margin: 8px 0;
@@ -43,7 +42,8 @@ h1 {
   cursor: pointer;
   user-select: none;
   transition: all 0.3s ease;
-  border: 1px solid #c0392b ;
+  border: 1px solid #c0392b;
+  color: #ffffff;
 }
 
 .ramo:hover {
@@ -53,8 +53,8 @@ h1 {
 .ramo.aprobado {
   background-color: #e6b0aa;
   text-decoration: line-through;
-  color: #922b21;
-  border: 1px solid #c0392b;
+  color: #6e2c00;
+  border: 1px solid #a93226;
 }
 
 .ramo.bloqueado {
@@ -63,3 +63,11 @@ h1 {
   pointer-events: none;
   border: 1px solid #bdbdbd;
 }
+
+/* Quitar contorno verde al hacer clic */
+.ramo:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+
