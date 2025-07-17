@@ -1,7 +1,7 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  background: #fffafc;
+  background: #fabef6;
   padding: 40px;
   margin: 0;
   color: #333;
@@ -33,7 +33,7 @@ h1 {
 }
 
 .ramo {
-  background-color: #ffc1e3;
+  background-color: #dbdbdb;
   border-radius: 10px;
   padding: 10px;
   margin: 8px 0;
@@ -51,7 +51,7 @@ h1 {
 }
 
 .ramo.aprobado {
-  background-color: #d0f0c0;
+  background-color: #d9a7f0;
   text-decoration: line-through;
   color: #2e7d32;
   border: 1px solid #aed581;
